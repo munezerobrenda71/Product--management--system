@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: peru;
+}
+
+.container {
+  width: 80%;
+  margin: 40px auto;
+  background-color: rgb(161, 8, 8);
+  padding: 25px;
+  border-radius: 8px;
+}
+
+form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+input,
+button {
+  padding: 12px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #222;
+  color: purple;
+  border: none;
+  cursor: pointer;
+  align-self: center;
+}
+
+table {
+  width: 100%;
+  margin-top: 25px;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+a {
+  margin-right: 10px;
+}
